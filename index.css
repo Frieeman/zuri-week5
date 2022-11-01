@@ -1,0 +1,30 @@
+.container{
+    background-color: #945b58;
+}
+.flex-container{
+    display: flex;
+    height: 90vh;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex-item{
+    background-color: magenta;
+    border: 1px solid black;
+}
+.item1{
+    width: 150px;
+    align-self: flex-end;
+}
+.item2{
+    width: 250px;
+    align-self: center;
+}
+.item3{
+    width: 200px;
+    align-self: flex-start;
+}
+.item4{
+    width: 200px;
+}
